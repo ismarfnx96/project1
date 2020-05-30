@@ -1,0 +1,423 @@
+                        body {
+                            font-family: "Work Sans", "HelveticaNeue", "Helvetica Neue", sans-serif;
+                            box-sizing: border-box;
+                            padding: 0;
+                        }
+                        
+                        .wrapper {
+                            margin: 0 auto;
+                            max-width: 1120px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                        }
+                        
+                        .logo {
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                        
+                        .logo a {
+                            display: inline-block;
+                            position: relative;
+                            height: 80px;
+                        }
+                        
+                        .logo img {
+                            width: 112.5px;
+                            height: 150px;
+                            float: left;
+                            margin-top: 7px;
+                            vertical-align: middle;
+                            position: absolute;
+                            ;
+                            z-index: 1;
+                        }
+                        
+                        .navbar {
+                            text-transform: uppercase;
+                            float: right;
+                            font-size: 12.5px;
+                        }
+                        
+                        .navbar ul li {
+                            list-style-type: none;
+                            float: left;
+                        }
+                        
+                        .navbar ul li a {
+                            text-decoration: none;
+                            color: black;
+                            font-weight: bold;
+                            padding: 15px 0 15px 20px;
+                            display: block;
+                        }
+                        
+                        .container {
+                            background-position: center 0;
+                            background-size: auto 100%;
+                            background-image: url(images/Capture.png);
+                            box-shadow: none;
+                            background-color: #eeeeef;
+                            text-align: left;
+                            padding: 0;
+                            background-repeat: no-repeat;
+                        }
+                        
+                        .baner {
+                            min-height: 500px;
+                            height: 500px;
+                            align-items: center;
+                            justify-content: center;
+                            display: flex;
+                        }
+                        
+                        .text-button {
+                            margin: 0;
+                            padding: 0;
+                            text-align: center;
+                        }
+                        
+                        .text h1 {
+                            width: 100%;
+                            background-color: rgba(0, 0, 0, .839);
+                            padding: 8px 24px;
+                            color: #fff;
+                            font-size: 38px;
+                            font-weight: 600;
+                        }
+                        
+                        .button-kreiraj>button {
+                            margin: 0;
+                            background: #326a77;
+                            color: #fff;
+                            box-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+                            border-width: 0;
+                            padding: 20px 45px;
+                            font-size: 15px;
+                            border-radius: 25px;
+                            text-transform: uppercase;
+                        }
+                        
+                        .section2 {
+                            clear: both;
+                        }
+                        
+                        .section2 h2 {
+                            font-size: 30px;
+                            color: #000;
+                            font-weight: 600;
+                            text-align: center;
+                            margin: 25px 0 20px 0;
+                            padding-top: 10px
+                        }
+                        
+                        .block2 {
+                            width: 50%;
+                            float: left;
+                        }
+                        
+                        .block2-back {
+                            background: #efefef;
+                        }
+                        
+                        .block-content2 {
+                            padding: 35px 25px 25px 25px;
+                            text-align: center;
+                            margin-bottom: 30px;
+                            background: #efefef;
+                            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+                            color: #000;
+                            margin: 20px;
+                            position: relative;
+                        }
+                        
+                        .block-content2 h3 {
+                            color: #326a77;
+                        }
+                        
+                        .block-content2 button {
+                            box-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+                            border-width: 0;
+                            padding: 20px 45px;
+                            font-size: 15px;
+                            border-radius: 50px;
+                            color: #fff;
+                            background-color: #326a77;
+                            border-color: #326a77;
+                            text-transform: uppercase;
+                        }
+                        
+                        .novo {
+                            position: absolute;
+                            left: 426px;
+                            top: 0;
+                        }
+                        
+                        .row {
+                            clear: both;
+                        }
+                        
+                        .block3 {
+                            width: 33.33%;
+                            float: left;
+                        }
+                        
+                        .block-content3 {
+                            color: #000;
+                            background-color: #efefef;
+                            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+                            border-radius: 0;
+                            padding: 0;
+                            margin-bottom: 30px;
+                            margin: 13px;
+                            padding-bottom: 20px;
+                            overflow: hidden;
+                        }
+                        
+                        .block-content3 img {
+                            max-width: 357px;
+                        }
+                        
+                        .block-content3 a {
+                            text-align: center;
+                            text-transform: uppercase;
+                        }
+                        
+                        .block-content3 p {
+                            text-align: center;
+                        }
+                        
+                        .h22 {
+                            clear: both;
+                            margin-top: 400px;
+                            font-size: 30px;
+                            color: #000;
+                            font-weight: 600;
+                            margin-bottom: 80px;
+                            text-align: center;
+                        }
+                        
+                        .block4 {
+                            background: #efefef;
+                            display: inline-block;
+                        }
+                        
+                        .first-block {
+                            display: flex;
+                            flex-direction: row;
+                        }
+                        
+                        .second-block {
+                            display: flex;
+                            flex-direction: row;
+                        }
+                        
+                        .block-content4 {
+                            width: 50%;
+                            margin: 25px;
+                        }
+                        
+                        .block-content4 img {
+                            float: left;
+                            display: block;
+                            padding: 40px 20px 55px 0;
+                        }
+                        
+                        .button {
+                            width: 100%;
+                            color: white;
+                            background-color: #326a77;
+                            font-size: 14px;
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                            border-radius: 5px;
+                            text-transform: uppercase;
+                            font-weight: 600;
+                            white-space: normal;
+                            margin: 20px 0 20px 0;
+                            border-color: #326a77;
+                        }
+                        
+                        .footer {
+                            background: #efefef;
+                        }
+                        
+                        .row5 {
+                            background: #efefef;
+                            padding: 30px;
+                            display: flex;
+                            flex-direction: row;
+                        }
+                        
+                        .block5 {
+                            margin: 30px;
+                        }
+                        
+                        .block5 a {
+                            color: black;
+                        }
+                        
+                        .left a {
+                            color: black;
+                        }
+                        
+                        .copy-right a {
+                            text-decoration: none;
+                            color: black;
+                        }
+                        
+                        .hr {
+                            opacity: 50%;
+                        }
+                        
+                        .menu {
+                            margin-top: 30px;
+                        }
+                        
+                        .right {
+                            float: right;
+                        }
+                        
+                        .copy-right {
+                            margin: 5px 0 20px 0;
+                            opacity: 70%;
+                            padding-bottom: 50px;
+                        }
+                        
+                        .icon i {
+                            display: none;
+                        }
+                        
+                        @media only screen and (max-width: 1030px) {
+                            .wrapper {
+                                max-width: 850px;
+                                margin: auto;
+                                padding-right: 15px;
+                                padding-left: 15px;
+                                margin-right: auto;
+                                margin-left: auto;
+                            }
+                            .container {
+                                margin: auto;
+                            }
+                            .logo img {
+                                width: 48px;
+                                height: 61px;
+                                margin: 8px 20px;
+                            }
+                            .navbar {
+                                margin-right: 30px;
+                            }
+                            .baner,
+                            .container {
+                                max-width: 1000px;
+                            }
+                            .text h1 {
+                                width: 95%;
+                            }
+                            .novo {
+                                position: absolute;
+                                left: 326px;
+                            }
+                            .novo img {
+                                height: 78px;
+                                width: 82px;
+                            }
+                            .block2 {
+                                display: flex;
+                                align-items: center;
+                            }
+                            .block-content4 img {
+                                padding: 50px 20px 72px 0;
+                            }
+                            .text h1 {
+                                font-size: 28px;
+                            }
+                            .block5 img {
+                                width: 96px;
+                                margin-top: 43px;
+                            }
+                            .icon i {
+                                display: none;
+                            }
+                        }
+                        
+                        @media only screen and (max-width: 991px) {
+                            .wrapper {
+                                max-width: 750px;
+                            }
+                            .navbar {
+                                display: none;
+                            }
+                            .block2 {
+                                width: 100%;
+                            }
+                            .novo {
+                                left: 600px;
+                            }
+                            .h22 {
+                                margin-bottom: 35px;
+                            }
+                            .navbar ul li {
+                                float: none;
+                            }
+                            .first-block {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            .second-block {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            .block-content4 {
+                                margin: 5px 10px 0 40px;
+                                width: 89%;
+                            }
+                            .icon i {
+                                display: inline-block;
+                                color: black;
+                            }
+                            .icon i.navbar.responsive {
+                                display: block;
+                                position: relative;
+                                top: 0;
+                                left: 0;
+                            }
+                            .navbar.responsive {
+                                position: relative;
+                                left: 0;
+                                top: 0;
+                                display: block;
+                                width: 100%;
+                                float: none;
+                            }
+                            .navbar.responsive a {
+                                display: block;
+                                text-align: left;
+                                width: 100%;
+                            }
+                            .navbar.responsive ul {
+                                margin: 0;
+                                padding: 0;
+                            }
+                            .logo a img {
+                                display: inline-block;
+                                padding-left: 314px;
+                            }
+                            .myHeader {
+                                display: flex;
+                                flex-wrap: wrap;
+                            }
+                            .icon i {
+                                font-size: 25px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width: 690px) {
+                            body {
+                                width: 690px;
+                            }
+                            .novo {
+                                left: 540px;
+                            }
+                        }
